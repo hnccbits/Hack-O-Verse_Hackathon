@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">classkr</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="lbl_semester">Semester</string>
+<string name="lbl_remove_class">Remove Class</string>
+<string name="msg_student_registr">Student Registration</string>
+<string name="msg_2_student_nam">2.  Student Name2
+     Regd. No.:
+ASSIGNMENT  NOT  SUBMITTED
+
+</string>
+<string name="msg_present_faculti">Present Faculties</string>
+<string name="lbl_add_class">Add Class</string>
+<string name="lbl_phone_no">Phone No.</string>
+<string name="msg_e_mail_id_roh">E-Mail ID : rohithas12031994@gmail.com</string>
+<string name="lbl_mother_s_name">Mother\u2019s Name</string>
+<string name="msg_abcxyz_gmail_co">abcxyz@gmail.com</string>
+<string name="lbl_date_of_birth">Date Of Birth</string>
+<string name="lbl_first_name">First Name</string>
+<string name="lbl_state">State</string>
+<string name="lbl_subject">Subject</string>
+<string name="msg_previous_result">Previous Results</string>
+<string name="lbl_abcxyz">abcxyz</string>
+<string name="msg_absent_facultie">Absent Faculties</string>
+<string name="lbl_e_mail_id">E-Mail ID</string>
+<string name="lbl_evaluate_your">Evaluate your-</string>
+<string name="lbl_test">Test</string>
+<string name="msg_student_name1">Student Name1
+      Regd. No.:
+ASSIGNMENT SUBMITTED
+
+</string>
+<string name="msg_assignment_not">ASSIGNMENT  NOT  SUBMITTED
+
+</string>
+<string name="lbl_contact">Contact</string>
+<string name="lbl_get_started">Get Started</string>
+<string name="lbl_section">Section</string>
+<string name="msg_staff_and_facul">Staff and Faculty
+Communication</string>
+<string name="lbl_mm">MM</string>
+<string name="lbl_yy">YY</string>
+<string name="lbl_result">Result</string>
+<string name="lbl_location">Location</string>
+<string name="msg_student_course">Student Course year</string>
+<string name="msg_check_class_sch">Check Class Schedule</string>
+<string name="lbl_attendance">Attendance</string>
+<string name="lbl_name3">Name3</string>
+<string name="msg_for_further_det">For Further Details and help Contact here</string>
+<string name="lbl_name2">Name2</string>
+<string name="lbl_name1">Name1</string>
+<string name="lbl_view_profile">View Profile</string>
+<string name="lbl_submit">Submit</string>
+<string name="lbl_select">Select</string>
+<string name="msg_add_feedback">Add Feedback..................</string>
+<string name="msg_class_schedulin">Class Scheduling</string>
+<string name="lbl_91_xxxxxxxxxx">+91 xxxxxxxxxx</string>
+<string name="lbl_regd_no">  Regd. No.:
+</string>
+<string name="lbl_name7">Name7</string>
+<string name="msg_mob_no_91_6">MOB. NO.: +91 6370662019</string>
+<string name="lbl_last_name">Last Name</string>
+<string name="msg_assignment_subm">ASSIGNMENT SUBMITTED
+</string>
+<string name="lbl_2">2.  </string>
+<string name="lbl_name6">Name6</string>
+<string name="lbl_name5">Name5</string>
+<string name="lbl_you_are">You are :-</string>
+<string name="lbl_dd">DD</string>
+<string name="lbl_name4">Name4</string>
+<string name="lbl_evaluation">Evaluation</string>
+<string name="lbl_rohit_khanna">Rohit Khanna</string>
+<string name="lbl_login">LOGIN</string>
+<string name="lbl_staff_faculty">Staff / Faculty</string>
+<string name="lbl_regd_no2"> Regd. No.:
+</string>
+<string name="lbl_student_name1">Student Name1
+</string>
+<string name="lbl_student_name2">Student Name2
+</string>
+<string name="lbl_father_s_name">Father\u2019s Name</string>
+<string name="lbl_student_name">Student Name</string>
+<string name="lbl_district">District</string>
+<string name="lbl_help">Help</string>
+<string name="msg_student_feedbac">Student Feedback</string>
+<string name="msg_student_registr2">Student Registration 
+and Enrollment</string>
+<string name="lbl_timing">Timing</string>
+<string name="msg_select_the_rece">Select the recepient to send</string>
+<string name="msg_student_record">Student Record Management</string>
+<string name="lbl_leave_a_note">Leave a Note</string>
+</resources>
