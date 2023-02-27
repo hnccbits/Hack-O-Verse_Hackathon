@@ -1,0 +1,116 @@
+nav {
+    background-color: #333;
+    height: 50px;
+    margin: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  li {
+    margin: 0 10px;
+    padding:5px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #333;
+    display: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+
+  .header{
+    position: absolute;
+    display: flex;
+    top: 2%;
+    width: 100vw;
+    left: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+    background-color: #061978;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    border: 3px solid black;
+
+  }
+  .nav ul li{
+    padding:4px 1px;
+  }
+
+  .opener{
+    display: flex;
+    border: 0px solid black;
+    margin: -10% 10%;
+    justify-content: center;
+    text-align: center;
+    width: 80%;
+    flex-direction: column;
+
+  }
+ #name{
+    position: absolute;
+    top: 56%;
+    left: 24%;
+    border: 0px solid black;
+    width: 30%;
+    height: 3%
+
+}
+#id{
+    position: absolute;
+    top: 62%;
+    left: 24%;
+    border: 0px solid black;
+    width: 30%;
+    height: 3%
+
+}
+#accecebility{
+    position: absolute;
+    top: 68%;
+    left: 24%;
+    border: 0px solid black;
+    width: 30%;
+    height: 3%
+
+}
+
+.image{
+    position: absolute;
+    border: 0px solid black;
+    top: 58%;
+    left: 7%;
+    height: 20%;
+    width: 14%;
+    padding: 4px;
+}
+p{
+    position: absolute;
+    top: 41%;
+    left: 26%;
+}

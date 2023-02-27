@@ -1,0 +1,58 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+	margin: 0;
+}
+
+header, nav, main, footer {
+	padding: 10px;
+}
+
+header {
+	background-color: #003366;
+	color: #fff;
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #ccc;
+}
+
+nav li {
+	float: left;
+}
+
+nav li a {
+	display: block;
+	color: #333;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+nav li a:hover {
+	background-color: #ddd;
+}
+
+main section {
+	background-color: #fff;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+
+main section h2 {
+	color: #003366;
+}
+
+label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input[type="text"], input[type="email"], select {
+	padding: 5px;
+}

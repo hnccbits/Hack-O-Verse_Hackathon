@@ -1,0 +1,218 @@
+
+
+
+body , html{
+    height: 100%;
+    background-color: lightblue;
+    /* overflow: hidden; */
+}
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 4% 14%;
+    height: 30%;
+    width: 100%;
+
+}
+
+span {
+    position: absolute;
+    font-size: 20px;
+    margin: 129px 19px 30px 253px;
+}
+
+#clgname {
+
+    display: flex;
+    padding: 34px 11px;
+    justify-content: center;
+    text-align: center;
+    font-size: 45px;
+
+}
+.left{
+    height: 90%;
+    width: 24%;
+    position: absolute;
+    left:2%;
+    top: 6%;
+    border: 0px solid black;
+
+}
+.bio{
+    top: 4%;
+    position: absolute;
+    border: 0px solid white;
+    height: 69%;
+    width: 100%;
+}
+.name{
+    border: 0px solid red;
+    height: 4%;
+    width: 31%;
+    left: 53%;
+    top: 6%;
+    position: absolute;
+}
+.branch{
+    top: 15%;
+    left: 47%;
+    position: absolute;
+    border: 0px solid red;
+}
+.image{
+    border: 0px solid black;
+    height: 15%;
+    width: 36%;
+    left: 4%;
+    top: 4%;
+    position: absolute;
+}
+.class{
+    top: 27%;
+    left: 4%;
+    position: absolute;
+}
+
+.sem{
+    top: 10%;
+    left: 47%;
+    position: absolute;
+    border: 0px solid red;
+
+}
+.submit{
+    top: 42%;
+    left: 24%;
+    font-weight: bold;
+    position: absolute;
+    border-radius: 15px;
+}
+.action #marks{
+    position: absolute;
+    top: 19%;
+    left: -50%;
+}
+.action #assignment{
+    position: absolute;
+    top: 24%;
+    left: -50%;
+}
+.action #feedback{
+    position: absolute;
+    top: 29%;
+    left: -50%;
+}
+
+.hero{
+    position: absolute;
+    border: 0px solid red;
+    top: 38%;
+    left: 29%;
+    height: 43%;
+    width: 52%;
+}
+.academiccalender{
+    position: absolute;
+    border:0px solid black;
+    top:38%;
+    left: 83%;
+    height: 58%;
+    width:17%;
+}
+.workdue{
+    
+    position: absolute;
+    border: 0px solid red;
+    top: 80%;
+    left: 29%;
+    height: 29%;
+    width: 26%;
+    overflow: hidden;
+    overflow: scroll;
+    
+}
+.scroll-box {
+    height: 391px;
+    overflow: hidden;
+  }
+  
+  .scroll-box p {
+    margin: 0;
+    padding: 10px;
+    height: 20px;
+    line-height: 20px;
+    border-bottom: 1px solid #ccc;
+    animation: scroll 10s linear infinite;
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-200%);
+    }
+  }
+  .profilestu{
+    border: 0px solid black;
+    border-radius: 15px;
+    position: absolute;
+    top: 31%;
+    font-weight: bold;
+    width: 13rem;
+    left: 24%;
+    padding: 5px 8px;
+
+}
+/* .academics{
+     position: absolute;
+    top: 38%;
+    left: 24%;
+    border: 0px solid black;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 13rem; 
+     
+} */
+
+.academics{
+    /* position: absolute;
+    top: 38%;
+    left: 24%;
+    border: 0px solid black;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 13rem; */
+    display: flex;
+    flex-direction: column;
+    margin: 62% 23%;
+}
+.academics a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    border:0px solid black;
+    margin:3px;
+    border-radius: 10px;
+    padding:5px;
+}
+
+.fee{
+    position: absolute;
+    top: 48%;
+    left: 24%;
+    font-weight: bold;
+}
+.submit1{
+    position: absolute;
+    top: 53%;
+    left: 24%;
+}
