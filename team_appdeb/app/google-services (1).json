@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "95348888238",
+    "project_id": "safecampus-12e36",
+    "storage_bucket": "safecampus-12e36.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:95348888238:android:ec887ed046f465e13e533f",
+        "android_client_info": {
+          "package_name": "com.example.safecampus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "95348888238-n2m4dgu34ga9q67ie3dq06t9s2lmhpmm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.safecampus",
+            "certificate_hash": "809b45f64b9583a9040c7cd7e0e1aa3eb3238c69"
+          }
+        },
+        {
+          "client_id": "95348888238-p7sbbcmq6gl9s22j8apeqvart2hvrhru.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4cxW0VTjPcx6-OvZKbk7K9gSO0RCvgmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "95348888238-p7sbbcmq6gl9s22j8apeqvart2hvrhru.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
