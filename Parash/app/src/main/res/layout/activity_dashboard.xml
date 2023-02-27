@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/relative_layout">
+
+        <ImageView
+            android:id="@+id/profile_photo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="205dp"
+            android:fontFamily="@font/bitter"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/signout_button"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/ic_exit" />
+
+    </RelativeLayout>
+   <!-- <SearchView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:queryHint="Search Here"
+        android:iconifiedByDefault="false"
+        android:layout_below="@+id/relative_layout"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="632dp"
+        android:id="@+id/search_bar"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/myList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relative_layout"
+        android:layout_marginTop="0dp" />
+    <!--
+        <RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/search_bar"
+            android:layout_marginTop="-632dp"
+            android:id="@+id/myList"/>-->
+
+
+    <!--    <Button-->
+        <!--        android:id="@+id/signout_button"-->
+        <!--        android:layout_width="50dp"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        />-->
+    </RelativeLayout>

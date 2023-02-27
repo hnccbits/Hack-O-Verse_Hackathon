@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.classkr.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.classkr.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.classkr.app.modules.androidlargeeight.ui.AndroidLargeEightActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.classkr.app.modules.androidlargeone.ui.AndroidLargeOneActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.classkr.app.modules.androidlargefive.ui.AndroidLargeFiveActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.classkr.app.modules.androidlargeten.ui.AndroidLargeTenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.classkr.app.modules.androidlargeeleven.ui.AndroidLargeElevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.classkr.app.modules.androidlargefour.ui.AndroidLargeFourActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.classkr.app.modules.androidlargenine.ui.AndroidLargeNineActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.classkr.app.modules.androidlargesix.ui.AndroidLargeSixActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.classkr.app.modules.androidlargeseven.ui.AndroidLargeSevenActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.classkr.app.modules.androidlargethree.ui.AndroidLargeThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.classkr.app.modules.andriodlargetwo.ui.AndriodLargeTwoActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>

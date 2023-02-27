@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "169693793926",
+    "project_id": "classkr-69a23",
+    "storage_bucket": "classkr-69a23.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169693793926:android:7159e71d997ea8378d8b07",
+        "android_client_info": {
+          "package_name": "com.classkr.ukm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169693793926-191jlqqa4t61i5cirhluk3fg3tifcn9c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDzsGNL7drJAIAi3UqJW_5l5tiwCQ2Y34Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169693793926-191jlqqa4t61i5cirhluk3fg3tifcn9c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

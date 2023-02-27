@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listrectangleseventysixRowModel" type="com.classkr.app.modules.androidlargesix.data.model.ListrectangleseventysixRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowrectangleseventysix"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <View android:background="@color/yellow_A400"
+            android:id="@+id/viewRectangleSeventySix"
+            android:layout_height="@dimen/_38pxv"
+            android:layout_marginBottom="@dimen/_1pxv" android:layout_width="@dimen/_64pxh"/>
+        <View android:background="@color/yellow_A400"
+            android:id="@+id/viewRectangleFortySix"
+            android:layout_height="@dimen/_38pxv"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_14pxh" android:layout_width="@dimen/_64pxh"/>
+        <FrameLayout android:id="@+id/frameStackrectanglefortyseven"
+            android:layout_height="@dimen/_39pxv"
+            android:layout_marginStart="@dimen/_14pxh" android:layout_width="@dimen/_64pxh">
+            <View android:background="@color/yellow_A400"
+                android:id="@+id/viewRectangleFortySeven"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_38pxv"
+                android:layout_marginBottom="@dimen/_1pxv" android:layout_width="@dimen/_64pxh"/>
+            <View android:background="@color/yellow_A400"
+                android:id="@+id/viewRectangleFiftyFour"
+                android:layout_gravity="start"
+                android:layout_height="@dimen/_39pxv" android:layout_width="@dimen/_64pxh"/>
+        </FrameLayout>
+        <View android:background="@color/yellow_A400"
+            android:id="@+id/viewRectangleFortyEight"
+            android:layout_height="@dimen/_38pxv"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_14pxh" android:layout_width="@dimen/_64pxh"/>
+        <ImageView android:id="@+id/imageRectangleSixtyFive"
+            android:layout_height="@dimen/_38pxh"
+            android:layout_marginBottom="@dimen/_1pxv"
+            android:layout_marginStart="@dimen/_15pxh"
+            android:layout_width="@dimen/_65pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_rectangle65"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_rectangle65"/>
+    </LinearLayout>
+</layout>
