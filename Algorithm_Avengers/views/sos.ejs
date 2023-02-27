@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="/css/sos.css">
+<link rel="stylesheet" href="/css/styles.css">
+
+<%-include('./partials/navbar') -%>
+<h2><%= title %></h2>
+
+<!-- ambulance button -->
+<button onclick="sendCall('6204117961')">Ambulance</button>
+
+<!-- fire brigade button -->
+<button onclick="sendCall('+101')">Fire Brigades</button>
+
+<!-- police button -->
+<button onclick="sendCall('+100')">Police</button>
+
+<!-- woman helpline button -->
+<button onclick="sendCall('+1091')">Women Helpline</button>
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/twilio/3.59.0/twilio.min.js"></script>
+
+<script>
+    function sendCall(phoneNumber) {
+  // Send a call to the phone number using Twilio API
+  const client = twilio(AC7a55d2dcbf080cc20fdec8f4c4b10338, d9c4ad927209e19b9bc416dc985b9012);
+  client.calls.create({
+    url: 'http://demo.twilio.com/docs/voice.xml',
+    to: phoneNumber,
+    from: +12766226550
+  }).then(call => console.log(call.sid));
+}
+
+</script>

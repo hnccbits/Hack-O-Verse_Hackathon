@@ -1,0 +1,19 @@
+<div class="navbar">
+    <a href="/page/home"class="logo"><img width="40" src="/images/logo.png" alt=""></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn">
+    <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+   
+    <ul>
+      <li><a href="/page/home"><i class="fa-solid fa-house" id="fa-icon"></i>HOME </a>
+        <li><a href="/sos/emerg"><i class="fas fa-user" id="fa-icon"></i> SOS </a></li>
+        <li><a href="/res/vids"><i class="fas fa-user" id="fa-icon"></i> VIDEOS</a></li>
+      
+      <% if(locals.user) { %> 
+        <li><a href="/page/signin"><i class="fas fa-user" id="fa-icon"></i> SIGN IN</a></li>
+      </li>
+      <li><a href="mailto:kakulibasu82@gmail.com"><i class="fa-solid fa-phone" id="fa-icon"></i></i>HELP & SUPPORT</a></li>  
+      <% } %>
+      <li><a href="/page/sms"><i class="fas fa-user" id="fa-icon"></i> SMS</a></li>
+      <li><a href="/logout"><i class="fas fa-user" id="fa-icon"></i> LOGOUT</a></li>
+    </ul>
+  </div>

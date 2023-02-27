@@ -1,0 +1,13 @@
+main{
+    max-width: 1200px;
+    height: 50vh;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.personal-details{
+    max-width: 400px;
+    height: 45vh;
+    border: 2px solid orange;
+    margin:auto;
+}

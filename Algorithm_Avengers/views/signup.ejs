@@ -1,0 +1,117 @@
+<!-- Custom styles for this template -->
+<link href="/css/styles.css" rel="stylesheet" />
+
+  <main class="form-signin">
+    <form action="/register" method="post">
+      <img
+        class="mb-4"
+        src="/images/logo.png"
+        alt="logo-img"
+        width="100"
+        height="100"
+      />
+      <h1 class="h3 mb-3 fw-normal">Sign up to SafeBIT!</h1>
+
+      <div class="form-floating">
+        <div class="form-floating">
+          <input
+            name="name"
+            type="text"
+            class="form-control top"
+            id="floatingInput"
+            placeholder="Name"
+          />
+          <label for="floatingInput">Name</label>
+        </div>
+        <div class="form-floating">
+          <input
+            name="email"
+            type="email"
+            class="form-control middle"
+            id="floatingInput"
+            placeholder="Email"
+          />
+          <label for="floatingInput">Email</label>
+        </div>
+        <div class="form-floating">
+          <input
+            name="mobile"
+            type="tel"
+            class="form-control middle"
+            id="floatingInput"
+            placeholder="Mobile Number"
+          />
+          <label for="floatingInput">Mobile Number</label>
+        </div>
+        <div class="form-floating">
+          <input
+            name="reg"
+            type="text"
+            class="form-control middle"
+            id="floatingInput"
+            placeholder="Registration Number"
+          />
+          <label for="floatingInput">Registration Number</label>
+        </div>
+        <div class="branch">
+          <select
+            class="form-select form-control middle"
+            aria-label="branch"
+            name="branch"
+            id="branch floatingInput"
+            aria-describedby="branch"
+          >
+            <option selected disabled value="">Select your Branch</option>
+            <option value="Computer Science Engineering" name="cse">
+              Computer Science Engineering
+            </option>
+            <option value="Information Technology" name="it">
+              Information Technology
+            </option>
+            <option value="Electronics & Communication Engg" name="ece">
+              Electronics & Communication Engg
+            </option>
+            <option value="Electrical Engineering" name="ee">
+              Electrical Engineering
+            </option>
+            <option value="Mechanical Engineering" name="me">
+              Mechanical Engineering
+            </option>
+            <option value="Metallurgical Engineering" name="metal">
+              Metallurgical Engineering
+            </option>
+            <option value="Civil Engineering" name="civil">
+              Civil Engineering
+            </option>
+            <option value="Mining Engineering" name="mining">
+              Mining Engineering
+            </option>
+            <option value="Chemical Engineering" name="chem">
+              Chemical Engineering
+            </option>
+            <option value="Production Engineering" name="prod">
+              Production Engineering
+            </option>
+          </select>
+        </div>
+        <div class="form-floating">
+          <input
+            name="password"
+            type="password"
+            class="form-control middle"
+            id="floatingInput"
+            placeholder="Password"
+          />
+          <label for="floatingInput">Password</label>
+        </div>
+        </div>
+      </div>
+
+      <button class="w-100 btn btn-lg btn-primary" type="submit">
+        Sign me Up!
+      </button>
+      <p class="mt-5 mb-3 text-muted">&copy; SafeBIT 2023</p>
+    </form>
+  </main>
+  
+  <a href="/page/signin">Don't have account?</a>
