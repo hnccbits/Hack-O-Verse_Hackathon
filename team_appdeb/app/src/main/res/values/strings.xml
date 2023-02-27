@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">SafeCampus</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_user_tracking_location">UserTrackingLocation</string>
+    <!--    <string name="guide_book">10 Campus Safety Tips You Should Follow-->
+    When large groups of people gather in one location, criminal activity can occur. Practicing
+    campus safety measures, including safe college partying practices, can help reduce risks and
+    minimize negative outcomes.
+
+    Here are some essential campus safety tips to help you stay safe while still having fun:
+
+    1.Know Your Way Around Campus: Consider downloading a campus map and get to know your way around
+    the school during the day when students and faculty fill the campus.
+    2.Use Locks: Always lock your dorm room or apartment door. This major deterrent can stop thieves
+    in their tracks. Also, lock your car doors (even when driving) and keep valuables out of sight.
+    3.Never Walk Alone After Dark: Always use the buddy system when walking at night. Most schools
+    also offer a campus escort shuttle.
+    4.Know Where the Emergency Systems Are on Campus: Scout out the emergency blue light phones so
+    you know their locations. If you forgot your phone or have a dead battery, you can use these
+    phones to contact the public safety office directly.
+    5.Consider Carrying a Whistle, Pepper Spray, or Alarm: Any type of personal defense option, such
+    as pepper spray or a whistle, may help stop an attack or alert a bystander that you're in
+    trouble.
+    6.Take a Self-Defense Class: Knowing specific self-defense tactics can increase the odds of
+    fending off an attacker. Many schools offer these classes for credit or for free.
+    7.Take Advantage of Campus Escort Services: Most schools offer campus escort services,
+    particularly at night. Call the public safety office for contact information and hours of
+    operation.
+    8.Be Aware of Your Social Media Settings: Check your social media settings and make sure only
+    friends can see your posts. Also, disable location finders on social media sites that publicly
+    share this information.
+    9.Avoid Drinking Too Much: Drinking to excess can result in bad choices that put you in
+    difficult and dangerous situations. If you do plan on drinking, never accept a drink poured by
+    someone you don't trust.
+    10.Always Have Emergency Contacts in Your Phone: Make sure to input emergency contacts, such as
+    the campus safety office, into your phone so you don't need to look them up in an emergency.
+
+
+    <!--    </string>-->
+</resources>
