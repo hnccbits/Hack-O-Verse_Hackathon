@@ -1,0 +1,40 @@
+<link rel="stylesheet" href="/css/styles.css">
+
+<link rel="stylesheet" href="/css/sms.css">
+<%- include('./partials/navbar.ejs') -%>
+
+
+<div class="container-fluid col-lg-6">
+    <h1 class="sms-h1">SMS Service - 24/7</h1>
+    <br>
+   <form action="/createSMS" method="post">
+    <h2 class="sms-h2">Your Current Location</h2>
+    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+      <option selected>Nearby Location</option>
+      <option value="mg">Main Gate</option>
+      <option value="it">IT Building</option>
+      <option value="b-zone">B-Zone</option>
+      <option value="gh">Girls Hostel</option>
+      <option value="pmc">PMC Side</option>
+      <option value="op">OP Gate</option>
+      <option value="cg">Club Ground (CG)</option>
+      <option value="railway">Sindri Railway Station</option>
+      <option value="library">Library</option>
+      <option value="mechDept">Mechanical Department</option>
+      <option value="mcGround">MC Ground</option>
+      <option value="canteen">Canteen</option>
+      <option value="auntyMaggi">Aunty Maggi</option>
+    </select>
+    <h2 class="sms-h2">Type of Incident</h2>
+    <select class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+      <option selected>Trouble you are in</option>
+      <option value="medicalEmergency">Medical Emergency</option>
+      <option value="fireBreakout">Fire Breakout</option>
+      <option value="womenHarrassment">Women Harrassment</option>
+      <option value="robbery">Robbery</option>
+    </select>
+    <button type="submit" class="btn btn-success btn-lg">Get HELP!</button>
+   </form>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>

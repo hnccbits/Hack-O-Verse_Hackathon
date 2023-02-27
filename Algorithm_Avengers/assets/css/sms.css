@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    background-color: #dbf6f7;
+    text-align: center;
+    color: #40514E;
+}
+
+h1 {
+    color: #3bb6b6;
+    font-size: 4vw; 
+    font-weight: normal;
+    margin-top: 95px;
+
+  }
+  
+  h2 {
+    color: #66BFBF;
+    font-size: 2vw;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
