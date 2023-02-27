@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OptiRide</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+
+  <body>
+    <div class="container" id="fix">
+      <img class="one" src="/static/Ride.png" alt="" />
+      <h2 class="fox"><span>B</span>RAI<span>N</span>IAC<span>S</span></h2>
+    </div>
+    <div class="frost">
+      <!-- <input type="text" value = "Search Here"> -->
+      <div class="track">
+        <div class="navigation">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <span class="togglemenu"></span>
+        </div>
+      </div>
+    </div>
+    <div class="see">
+      <div id="frame">
+        <input type="radio" name="frame" id="frame1" checked />
+        <input type="radio" name="frame" id="frame2" />
+        <input type="radio" name="frame" id="frame3" />
+        <input type="radio" name="frame" id="frame4" />
+        <div id="slides">
+          <div id="overflow">
+            <div class="inner">
+              <div class="frame frame_1">
+                <div class="frame-content">
+                  <img
+                    class="site"
+                    src="/static/WhatsApp Image 2023-02-26 at 04.08.01.jpg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="frame frame_2">
+                <div class="frame-content">
+                  <img class="site" src="/static/Ride.png" alt="" />
+                </div>
+              </div>
+              <div class="frame frame_3">
+                <div class="frame-content">
+                  <img class="site" src="" alt="" />
+                </div>
+              </div>
+              <div class="frame frame_4">
+                <div class="frame-content">
+                  <img class="site" src="" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="controls">
+          <label for="frame1"></label>
+          <label for="frame2"></label>
+          <label for="frame3"></label>
+          <label for="frame4"></label>
+        </div>
+        <div id="bullets">
+          <label for="frame1"></label>
+          <label for="frame2"></label>
+          <label for="frame3"></label>
+          <label for="frame4"></label>
+        </div>
+      </div>
+      <div class="trace">
+        <div class="screen">
+          <img class="dell" src="/static/OIP (1).jpeg" alt="" />
+        </div>
+        <div class="create">
+          <hr />
+
+          <table class="trigger">
+            <tr id="header">
+              <th>Camera id</th>
+              <th>Closest Distance</th>
+              <th>Datetime</th>
+            </tr>
+            {% for d in data %}
+            <tr>
+              {% for x in d %}
+
+              <td>{{d[x]}}</td>
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </table>
+          <input class="int" type="submit" value="Learn More" />
+        </div>
+      </div>
+    </div>
+    <div class="scratch">
+      <div class="third">
+        <h1>CAMERA DETAILS</h1>
+      </div>
+      <div class="trick">
+        <img class="image-thirst" src="/static/th.jpeg" alt="" />
+      </div>
+    </div>
+
+    <!-- <button class="fax" onclick="myFunction()">Switch mode</button>
+      <a class="thirst" href="login.html"><button>Log In</button></a>  -->
+
+    <script src="/static/first.js"></script>
+  </body>
+</html>
