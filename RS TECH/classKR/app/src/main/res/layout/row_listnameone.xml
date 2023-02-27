@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listnameoneRowModel" type="com.classkr.app.modules.androidlargeeight.data.model.ListnameoneRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRownameone"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnNameOne"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.56" android:layout_width="0dp"
+            android:paddingBottom="@dimen/_25pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_25pxv" android:singleLine="true"
+            android:text="@string/lbl_name1" android:textAllCaps="false"
+            style="@style/btnSolid_7" tools:text="@string/lbl_name1"/>
+        <ImageButton
+            android:background="@drawable/rectangle_bg_light_green_a700_radius_34_5"
+            android:id="@+id/btnCall"
+            android:layout_height="@dimen/_69pxh"
+            android:layout_marginStart="@dimen/_26pxh"
+            android:layout_width="@dimen/_69pxh"
+            android:paddingHorizontal="@dimen/_15pxh"
+            android:paddingVertical="@dimen/_15pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_call" tools:ignore="ContentDescription"/>
+        <ImageButton
+            android:background="@drawable/rectangle_bg_teal_a400_radius_34_5"
+            android:id="@+id/btnCallOne"
+            android:layout_height="@dimen/_69pxh"
+            android:layout_marginStart="@dimen/_9pxh"
+            android:layout_width="@dimen/_69pxh"
+            android:paddingHorizontal="@dimen/_11pxh"
+            android:paddingVertical="@dimen/_11pxv"
+            android:scaleType="fitCenter"
+            android:src="@drawable/img_call_black_900" tools:ignore="ContentDescription"/>
+    </LinearLayout>
+</layout>
